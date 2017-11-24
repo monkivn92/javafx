@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javafx-data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ch11/TweetAppDataFX/dist/lib/javafx-data.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
