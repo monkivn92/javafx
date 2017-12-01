@@ -68,7 +68,8 @@ public class Metronome1Main extends Application {
     public void start(Stage stage) {
         anim = new Timeline(
                 new KeyFrame(new Duration(0.0), new KeyValue(startXVal, 100.)),
-                new KeyFrame(new Duration(1000.0), new KeyValue(startXVal, 300., Interpolator.LINEAR))
+                new KeyFrame(new Duration(1000.0), new KeyValue(startXVal, 300.,
+                        Interpolator.LINEAR))
         );
         anim.setAutoReverse(true);
         anim.setCycleCount(Animation.INDEFINITE);
